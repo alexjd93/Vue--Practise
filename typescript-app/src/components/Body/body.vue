@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex md:flex-row mt-20 mx-auto">
+  <div class="md:flex md:flex-row mx-auto content">
     <div class="md:w-1/5">
       <img class="w-full" src="../../assets/alex_2.jpeg" />
     </div>

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.content {
+  padding: 200px 0;
+}
 .navigation {
   max-width: 1140px;
   margin: 0 auto;
@@ -35,7 +38,7 @@ h1 {
 h4 {
   @apply leading-tight text-2xl;
   text-align: center;
-  color: "#201e1f";
+  color: '#201e1f';
 }
 
 .skill_box {
