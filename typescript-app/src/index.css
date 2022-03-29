@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navigation {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.navigation {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.navigation.navbar_logo {
+  padding: 0 20px;
+}
+
+.navigation ul li {
+  padding: 0 20px;
+}
+
+.navigation ul li:hover {
+  @apply text-sky-400;
+}
+
+.navigation navbar_logo {
+  font-size: 24px;
+}
+
+.body {
+  @apply flex;
+  padding: 200px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.body body_image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.body .body_content .body_button button {
+  @apply rounded-full p-8;
+  padding: 10px 30px;
+  box-shadow: 5px 7px 8px 2px #e3e3e3;
+}
+
+.skill {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #201e1f;
+  font-size: 150%;
+  font-weight: normal;
+  margin-bottom: 30px;
+  word-spacing: 4px;
+  text-align: center;
+}
+
+h4 {
+  @apply leading-tight text-2xl;
+  text-align: center;
+  color: "#201e1f";
+}
+
+.skill_box {
+  padding: 50px 30px;
+  background-color: #fbfbfb;
+}
+
+.skill_box button {
+  @apply rounded-full p-8;
+  margin-top: 10px;
+  padding: 10px 30px;
+  box-shadow: 5px 7px 8px 2px #e3e3e3;
+  padding: 0 auto;
+}
+
+.skill_box .skill_box_description div {
+  text-align: center;
+  padding: 20px 25px;
+  line-height: 26px;
+  max-width: 100%;
+}
+
+.skill_box .skill_logo {
+  text-align: center;
+  padding: 20px 35%;
+}
+
+.work {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.work_box {
+  background-color: #fbfbfb;
+  padding: 20px 20px;
+  width: 100%;
+}
+.work_button_box {
+  background-color: #fbfbfb;
+  align-items: stretch;
+  padding: 20px 20px;
+}
+.work_button_box button {
+  margin: 0 auto;
+}
+.description {
+  padding: 20px 25px;
+}
