@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="work">
+  <div class="">
     <h1 class="Skill_Title">My Works</h1>
     <div class="flex space-x-4">
       <div

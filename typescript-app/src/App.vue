@@ -1,8 +1,10 @@
 <template>
-  <Navigation :navigation="[1, 2, 3, 4, 5]" />
-  <Body />
-  <Skill />
-  <Work />
+  <div class="container mx-auto">
+    <Navigation :navigation="navigationValue" />
+    <Body />
+    <Skill />
+    <Work />
+  </div>
 </template>
 
 <script>
@@ -15,7 +17,20 @@ export default {
   components: { Navigation, Body, Skill, Work },
   data() {
     return {
-      navigationValue: ["Home", "Project", "Skills", "Contact"],
+      navigationValue: [
+        {
+          Menu: "Home",
+        },
+        {
+          Menu: "Project",
+        },
+        {
+          Menu: "Skills",
+        },
+        {
+          Menu: "Contact",
+        },
+      ],
     };
   },
 };
