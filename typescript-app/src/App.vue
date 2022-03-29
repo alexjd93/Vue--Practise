@@ -1,5 +1,5 @@
 <template>
-  <Navigation />
+  <Navigation :navigation="[1, 2, 3, 4, 5]" />
   <Body />
   <Skill />
   <Work />
@@ -13,6 +13,11 @@ import Work from "./components/Work/work.vue";
 export default {
   name: "App",
   components: { Navigation, Body, Skill, Work },
+  data() {
+    return {
+      navigationValue: ["Home", "Project", "Skills", "Contact"],
+    };
+  },
 };
 </script>
 
